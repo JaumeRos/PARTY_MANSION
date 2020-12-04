@@ -7,7 +7,7 @@ class BookingsController < ApplicationController
     @booking.mansion = @mansion
     @booking.user = current_user
     if @booking.save
-      redirect_to mansion_path(@mansion)
+      redirect_to dashboard_path
       flash[:notice] = "Booking was succesful"
     else
       render "mansions/show"

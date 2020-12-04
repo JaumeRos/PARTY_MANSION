@@ -110,4 +110,54 @@ palamos.photos.attach(io: file_palamos, filename: 'palamos.png', content_type: '
 file_palamos = URI.open('https://images.unsplash.com/photo-1582417728413-b2347161b864?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80')
 palamos.photos.attach(io: file_palamos, filename: 'palamos.png', content_type: 'image/png')
 
+#new ADDED
+
+
+calella = Mansion.create(
+  address: 'Calella de Palafurgell, Girona',
+  price: 2500,
+  capacity: 100,
+  title: 'Villa Calella de Palafurgell',
+  description:'Bring all your friends and have an amazing experience in this Costa Brava castle! Whether you’re in town for business or pleasure, or both, Palamos has lots to see and do. Conveniently located a short walk from the cities facilities, this mansion is the perfect home base for exploring this beautiful city. With two bedrooms and a guest area, there are total accommodations for five, making it perfect for a small family, or group of friends or colleagues. Copyright © Mansions B&B. All rights reserved.',
+  user: jaume
+)
+file_calella = URI.open('https://images.unsplash.com/photo-1568391300292-a5a1d96b82aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=628&q=80')
+calella.photos.attach(io: file_calella, filename: 'calella.png', content_type: 'image/png')
+file_calella = URI.open('https://images.unsplash.com/photo-1561753757-d8880c5a3551?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')
+calella.photos.attach(io: file_calella, filename: 'calella.png', content_type: 'image/png')
+file_calella = URI.open('https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=760&q=80')
+calella.photos.attach(io: file_calella, filename: 'calella.png', content_type: 'image/png')
+
+
+begur = Mansion.create(
+  address: 'Begur, Girona',
+  price: 3200,
+  capacity: 87,
+  title: 'Villa Begur, Costa Brava',
+  description:'This magnificent renovated semi-detached house, with garden and private pool, is located on the Calella de Palafrugell promenade and enjoys spectacular views of the Mediterranean Sea. Less than 5 minutes from the beach on foot, it would be an ideal second home or an investment opportunity for vacation rentals in one of the most sought-after destinations among national and international clients. An automatic access gate gives access to the garden that leads to the house. On the main floor, which is the day area: we are greeted by a spacious living room with spectacular views of the Mediterranean Sea. This room has direct access to a beautiful terrace with spectacular views of the sea, the garden and the private pool. This floor also has a fully equipped kitchen, a guest toilet, a laundry room and a single car garage. Stairs lead to the ground floor, which forms the bedrooms.',
+  user: jaume
+)
+file_begur = URI.open('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')
+begur.photos.attach(io: file_begur, filename: 'begur.png', content_type: 'image/png')
+file_begur = URI.open('https://images.unsplash.com/photo-1528462624147-e8d798e8262c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80')
+begur.photos.attach(io: file_begur, filename: 'begur.png', content_type: 'image/png')
+file_begur = URI.open('https://images.unsplash.com/photo-1571654443889-863482ff3f42?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=655&q=80')
+begur.photos.attach(io: file_begur, filename: 'begur.png', content_type: 'image/png')
+
+
+llafranc = Mansion.create(
+  address: 'Llafranch, Girona',
+  price: 4230,
+  capacity: 73,
+  title: 'Villa Calella de Palafurgell',
+  description:"This house offers the best of Mediterranean life, with spectacular views of the white sand beaches of Port Pelegrí and Port Bo, and a fantastic location on the first pedestrian line of this historic town on the Costa Brava. All the restaurants, shops, bars and the wonderful beaches of this picturesque and well-kept fishing village are just a few seconds walk through the pedestrian promenade. You don't even have to leave your home to enjoy 24/7 access to panoramic views of world-famous coves, cliffs, beaches, and ships. Built in 1934, the house was built to take full advantage of its privileged elevated position, with a charming 30 m² retractable terrace overlooking the outside terrace with pergola and wooden awning.",
+  user: dani
+)
+file_llafranc = URI.open('https://images.unsplash.com/photo-1506126279646-a697353d3166?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')
+llafranc.photos.attach(io: file_llafranc, filename: 'llafranc.png', content_type: 'image/png')
+file_llafranc = URI.open('https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80')
+llafranc.photos.attach(io: file_llafranc, filename: 'llafranc.png', content_type: 'image/png')
+file_llafranc = URI.open('https://images.unsplash.com/photo-1505843795480-5cfb3c03f6ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=891&q=80')
+llafranc.photos.attach(io: file_llafranc, filename: 'llafranc.png', content_type: 'image/png')
+
 
